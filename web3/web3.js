@@ -1,6 +1,6 @@
 const Web3 = require('web3');
 const UNISWAP = require('@uniswap/sdk')
-var provider = 'https://rinkeby.infura.io/v3/d4127ff3730e48b195141899da4efe99' //change to network used
+var provider = '' //change to network used
 var web3 = new Web3(new Web3.providers.HttpProvider(provider));
 
 const minABI = [
@@ -428,10 +428,10 @@ const uniswapABI =
 
 
 
-var tokenAddress = "0x6BD8d4c37ADB8fe976c19506012896012Da63B40"  //morph tokenAddress
-var uniswapAddress = '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D'  //Uniswap Address
-web3.eth.defaultAccount = '0x96D481460d48A43084221b254681B9233b55FcF6'; // key n address
-var privateKey = "0bf90e7d4271cdef6733114ba0db28bda337456fc7453b5b9baec5f61148edc6" //private key
+var tokenAddress = ""  //morph tokenAddress
+var uniswapAddress = ''  //Uniswap Address
+web3.eth.defaultAccount = ''; // key n address
+var privateKey = "" //private key
 
 var contractinstance;
 
